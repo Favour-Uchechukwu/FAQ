@@ -13,10 +13,16 @@ a {
 li {
   list-style-type: none;
 }
-
+body,
+html {
+  height: 100%;
+}
 body {
   font-family: "Inter", sans-serif;
   background-color: #9cadce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section.container {
